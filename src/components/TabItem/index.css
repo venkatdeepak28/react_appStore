@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.list-prop {
+  list-style: none;
+  display: flex;
+  margin-right: 48px;
+}
+.selected {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 8px;
+}
+.custom-btn {
+  border: 0;
+  background-color: transparent;
+  color: #7b8794;
+}

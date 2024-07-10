@@ -1,0 +1,73 @@
+/* Write your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container {
+  background-image: linear-gradient(to top, #ace0f9, #fff1eb);
+  height: 100vh;
+  width: vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #7b8794;
+  padding: 10px;
+}
+.main-heading {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+}
+.input-el {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 6px;
+  width: 40vw;
+}
+.logo {
+  height: 40px;
+}
+.custom-btn {
+  border: 0;
+  background-color: transparent;
+  color: #7b8794;
+}
+.list-prop {
+  list-style: none;
+  display: flex;
+  margin-right: 48px;
+}
+.app-list-prop {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-el {
+  margin-right: 16px;
+  padding-left: 8px;
+}
+.selected {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 8px;
+}
+.box-container {
+  width: 25vw;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 18px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.img {
+  height: 100px;
+}
